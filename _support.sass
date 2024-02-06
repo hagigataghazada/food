@@ -1,0 +1,57 @@
+#support
+    padding: 100px 20px
+    .box
+        display: flex
+        justify-content: center
+        .imgbox
+            width: 450px
+            margin-right: 20px
+        .textbox
+            background-color: #35b6c1
+            width: 450px
+            height: auto
+            padding-left: 10px
+            h1
+                margin-top: 50px
+                padding: 0 40px 0 0
+                font-size: 50px
+                color: #ffff
+                line-height: 1.1
+                font-weight: 700
+            span
+                color: #24667283
+            .btn
+                margin-top: 30px
+                font-size: 20px
+                color: #38b6c1
+                background-color: #ffff
+    @media screen and ( max-width: 992px )
+        .box
+            .textbox
+                h1
+                    margin-top: 30px
+                    font-size: 40px
+    @media screen and ( max-width: 768px )
+        display: flex
+        justify-content: center
+        align-items: center
+        .box
+            flex-direction: column
+            align-items: center
+            .imgbox
+                padding-left: 10px
+                width: 300px
+                margin-bottom: 20px
+            .textbox
+                padding-right: 10px
+                width: 290px
+                height: 220px
+                h1
+                    font-size: 30px
+                    margin-top: 20px
+                .btn
+                    margin-top: 20px
+                    font-size: 16px
+    @media screen and ( max-width: 576px )
+        padding: 40px 0
+        
