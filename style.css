@@ -52,6 +52,9 @@ header .menu nav .home-color {
 
 #beautiful {
   background-color: #f4fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #beautiful .box h1 {
   font-weight: 700;
@@ -89,6 +92,10 @@ header .menu nav .home-color {
   width: 480px;
 }
 @media screen and (max-width: 992px) {
+  #beautiful {
+    display: flex;
+    flex-direction: column;
+  }
   #beautiful .box h1 {
     font-size: 35px;
   }
