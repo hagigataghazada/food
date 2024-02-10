@@ -74,27 +74,31 @@ header .menu nav .home-color {
   background-color: #38b6c1;
   color: white;
 }
-#beautiful .box .imgbox {
+#beautiful .box .first {
   width: 120px;
   margin: 20px 0 10px;
 }
 #beautiful .box h4 {
   font-size: 20px;
 }
-#beautiful .box h5 {
-  font-size: 18px;
-  margin: 20px 50px 40px 0;
-}
 #beautiful .imgbox {
   width: 480px;
 }
 @media screen and (max-width: 992px) {
+  #beautiful .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #beautiful .box h1 {
-    font-size: 35px;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 0;
   }
   #beautiful .box h5 {
+    text-align: center;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin: 30px 0;
   }
   #beautiful .box .btn {
     font-size: 18px;
@@ -105,8 +109,8 @@ header .menu nav .home-color {
   #beautiful .box .btn h2 {
     font-size: 16px;
   }
-  #beautiful .box .imgbox {
-    width: 80px;
+  #beautiful .box .first {
+    width: 100px;
   }
   #beautiful .box h4 {
     font-size: 18px;
@@ -115,7 +119,7 @@ header .menu nav .home-color {
     font-size: 16px;
   }
   #beautiful .imgbox {
-    width: 350px;
+    width: 370px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -124,7 +128,7 @@ header .menu nav .home-color {
   }
 }
 @media screen and (max-width: 576px) {
-  #beautiful .box .imgbox {
+  #beautiful .box .first {
     width: 150px;
   }
   #beautiful .box h1 {
