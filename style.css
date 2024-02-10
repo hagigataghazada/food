@@ -33,7 +33,7 @@ header .menu .btn {
   opacity: 0.8;
 }
 header .menu nav a {
-  font-size: 23px;
+  font-size: 20px;
   margin: 0 10px;
   color: #8a8888;
 }
@@ -115,7 +115,7 @@ header .menu nav .home-color {
     font-size: 16px;
   }
   #beautiful .imgbox {
-    width: 400px;
+    width: 350px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -138,7 +138,7 @@ header .menu nav .home-color {
     font-size: 16px;
   }
   #beautiful .imgbox {
-    width: 300px;
+    width: 280px;
   }
 }
 
