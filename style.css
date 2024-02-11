@@ -66,6 +66,7 @@ header .menu nav .home-color {
   line-height: 1.3;
 }
 #beautiful .box .btn {
+  width: 200px;
   padding: 13px 30px;
   font-size: 20px;
   border-radius: 5px;
@@ -130,7 +131,6 @@ header .menu nav .home-color {
     width: 150px;
   }
   #beautiful .box h1 {
-    margin-right: 40px;
     font-size: 30px;
   }
   #beautiful .box .btn {
