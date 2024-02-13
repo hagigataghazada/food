@@ -20,12 +20,23 @@
         width: 400px
     @media screen and ( max-width: 992px )
         .textbox
-            text-align: center
+            padding: 0 50px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
             h1
+                text-align: center
+                padding: 0 150px
                 font-size: 50px
             h5
+                text-align: center
+                margin-right: 0
+                margin-bottom: 30px
                 font-size: 18px
+                padding: 0 80px
             .btn
+                text-align: center
                 padding: 10px
                 font-size: 18px
                 width: 130px
@@ -33,16 +44,25 @@
         .imgbox
             margin-top: 30px
     @media screen and ( max-width: 768px )
+        .textbox
+            padding: 0
+            h1
+                padding: 0 100px
+            h5
+                padding: 0 40px
         .imgbox
             margin-top: 50px
     @media screen and ( max-width: 576px )
         .imgbox
             width: 300px
         .textbox
+            padding: 0
             h1
+                padding: 0
                 font-size: 35px
                 width: 280px
             h5
                 font-size: 16px
+                padding: 0 10px
             .btn
                 font-size: 14px

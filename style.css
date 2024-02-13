@@ -140,15 +140,21 @@ header .menu nav .home-color {
   }
 }
 @media screen and (max-width: 576px) {
+  #beautiful .box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
   #beautiful .box .first {
     width: 150px;
   }
   #beautiful .box h1 {
-    padding: 0;
+    padding: 10px;
     font-size: 30px;
   }
   #beautiful .box h5 {
     padding: 0;
+    margin-top: 15px;
   }
   #beautiful .box .btn {
     font-size: 16px;
@@ -187,15 +193,26 @@ header .menu nav .home-color {
 }
 @media screen and (max-width: 992px) {
   #home .textbox {
-    text-align: center;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #home .textbox h1 {
+    text-align: center;
+    padding: 0 150px;
     font-size: 50px;
   }
   #home .textbox h5 {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 30px;
     font-size: 18px;
+    padding: 0 80px;
   }
   #home .textbox .btn {
+    text-align: center;
     padding: 10px;
     font-size: 18px;
     width: 130px;
@@ -206,6 +223,15 @@ header .menu nav .home-color {
   }
 }
 @media screen and (max-width: 768px) {
+  #home .textbox {
+    padding: 0;
+  }
+  #home .textbox h1 {
+    padding: 0 100px;
+  }
+  #home .textbox h5 {
+    padding: 0 40px;
+  }
   #home .imgbox {
     margin-top: 50px;
   }
@@ -214,12 +240,17 @@ header .menu nav .home-color {
   #home .imgbox {
     width: 300px;
   }
+  #home .textbox {
+    padding: 0;
+  }
   #home .textbox h1 {
+    padding: 0;
     font-size: 35px;
     width: 280px;
   }
   #home .textbox h5 {
     font-size: 16px;
+    padding: 0 10px;
   }
   #home .textbox .btn {
     font-size: 14px;
