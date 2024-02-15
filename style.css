@@ -410,8 +410,8 @@ header .menu nav .home-color {
     margin: 0 5px;
     font-size: 16px;
     padding: 10px;
-    padding-width: 70px;
-    padding-height: 30px;
+    width: 70px;
+    height: 30px;
   }
   #browse .box .imgbox {
     width: 100px;
@@ -443,6 +443,27 @@ header .menu nav .home-color {
     width: 150px;
     height: 50px;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #browse {
+    display: flex;
+    flex-direction: row;
+  }
+  #browse .box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  #browse .box .imgbox {
+    width: 200px;
+  }
+  #browse .box .textbox .minibox {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  #browse .box .textbox .minibox h5 {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 576px) {
