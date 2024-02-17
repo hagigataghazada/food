@@ -1,60 +1,59 @@
 #support
-    padding: 100px 20px
-    .imgbox
-        width: 450px
-        height: 340px
-        margin-right: 20px
     .textbox
-        display: flex
-        flex-direction: column
-        background-color: #35b6c1
-        width: 450px
-        height: 340px
-        // height: 100%
-        padding: 10px 0
+        width: 100%
+        height: 100%
+        background-color: #38b6c1
         h1
-            padding: 0 40px 0 0
-            font-size: 50px
-            color: #ffff
-            line-height: 1.1
             font-weight: 700
+            font-size: 60px
+            line-height: 1.1
+            color: #ffff
             margin: 0 70px 0 40px
         span
             color: #24667283
         .btn
-            padding: 10px 30px
-            width: 200px
-            margin: 30px 0 0 40px
             font-size: 22px
             color: #38b6c1
             background-color: #ffff
+            padding: 13px 60px
+            margin: 30px 0 0 40px
     @media screen and ( max-width: 992px )
-        .box
-            .textbox
-                margin-top: 20px
-                h1
-                    margin-top: 30px
-                    font-size: 40px
+        .imgbox
+            height: 415px
+        .textbox
+            margin-top: 20px
+            padding-top: 60px
+            padding-bottom: 60px
+            h1
+                padding: 0 40px
+                margin-left: 0
+            .btn
+                margin-top: 50px
     @media screen and ( max-width: 768px )
-        display: flex
-        justify-content: center
-        align-items: center
-        .box
-            flex-direction: column
-            align-items: center
-            .imgbox
-                padding-left: 10px
-                width: 300px
-                margin-bottom: 20px
-            .textbox
-                padding-right: 10px
-                width: 290px
-                height: 220px
-                h1
-                    font-size: 30px
-                    margin-top: 20px
-                .btn
-                    margin-top: 20px
-                    font-size: 16px
+        .imgbox
+            height: auto
+        .textbox
+            h1
+                font-size: 50px
+                padding: 0 0 0 40px
+                margin-right: 50px
     @media screen and ( max-width: 576px )
-        padding: 40px 0
+        .textbox
+            h1
+                margin-right: 50px
+                padding-left: 20px
+                font-size: 45px
+                padding-right: 100px
+            .btn
+                margin-left: 15px
+                margin-top: 30px
+    @media screen and ( max-width: 480px )
+        .textbox
+            h1
+                padding-right: 50px
+    @media screen and ( max-width: 381px )
+        .textbox
+            h1
+                padding-right: 5px
+                margin-right: 15px
+
