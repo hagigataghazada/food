@@ -14,12 +14,13 @@
             span
                 color: #3cc1d8
                 text-decoration-line: underline
-    .btn
-        font-size: 18px
-        border: 0.5px solid #bdbdbd
-        padding: 15px 46px
-        margin: 0 20px
-        border-radius: 5px
+    .wid
+        .btn
+            font-size: 18px
+            border: 0.5px solid #bdbdbd
+            padding: 15px 46px
+            margin: 0 20px
+            border-radius: 5px
     .bgc
         background-color: #3cc1d8
         color: #ffff
@@ -65,15 +66,17 @@
                 font-size: 40px
             h4
                 font-size: 18px
-        .btn
+        .wid
             display: flex
-            align-items: center
-            justify-content: center
-            margin: 0 5px
-            font-size: 16px
-            padding: 10px
-            width: 70px
-            height: 30px
+            .btn
+                display: flex
+                align-items: center
+                justify-content: center
+                margin: 0 5px
+                font-size: 16px
+                padding: 10px
+                width: 70px
+                height: 30px
         .box
             .imgbox
                 width: 100px
@@ -102,8 +105,17 @@
             height: 50px
             padding: 10px
     @media screen and ( max-width: 768px )
-        display: flex
-        flex-direction: row
+        .wid
+            justify-content: center
+            flex-direction: row
+            flex-wrap: wrap
+            .btn
+                margin: 10px 10px 0
+                width: 200px
+                height: 40px
+            .bgc
+                background-color: #3cc1d8
+                color: #ffff
         .box
             display: flex
             flex-direction: column
@@ -116,31 +128,45 @@
                     flex-direction: column
                     h5
                         margin-top: 10px
+                .add
+                    input
+                        margin-right: 10px
     @media screen and ( max-width: 576px )
         .textbox
             h1
-                font-size: 35px
+                font-size: 30px
             h4
                 font-size: 15px
-        .btn
-            font-size: 14px
-            padding: 10px
-        .box
-            .imgbox
+        .wid
+            justify-content: center
+            flex-direction: column
+            .btn
                 width: 200px
+                height: 40px
+                font-size: 14px
+                padding: 10px
+        .box
+            padding: 15px
+            .imgbox
+                width: 150px
             .textbox
+                padding: 0 20px
                 h2
-                    font-size: 18px
-                p
                     font-size: 16px
+                p
+                    padding-right: 10px
+                    font-size: 15px
                 .add
                     input
                         width: 40px
                         height: 30px
                     .btn
-                        width: 60px
+                        width: 70px
                         h3
-                            font-size: 11px
+                            font-size: 12px
         .big
-            width: 100px
+            align-items: center
+            width: 150px
             height: 30px
+            margin-top: 30px
+            padding: 0
